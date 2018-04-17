@@ -1,0 +1,591 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: "Colaborate Thin";
+	background-color: #e7e8ea;
+}
+
+section button {
+	background: linear-gradient(to top, #184386, #2d6bc2);
+	border-radius: 10px;
+	border: none;
+	font-size: 19px;
+}
+
+button a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.gradient {
+	background: linear-gradient(to top, #e7e8ea, #1b1b2b);
+}
+
+.row {
+	padding: 37px 180px;
+}
+
+.row-footer {
+	padding: 0px 180px;
+}
+
+.row-product {
+	padding: 0px 213px;
+}
+
+.products-page {
+	background-color: #e7e8ea;
+}
+
+/*-------------------------------------Голова--------------------------------------------*/
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 50px;
+}
+
+
+.logo {
+	width: 260px;
+	font-family: "Flare Light Gothic";
+	padding-right: 132px;
+}
+
+.logo-img {
+	float: left;
+	padding-right: 5px;
+}
+
+.logo-title h1{
+	font-size: 39px;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.logo-pretitle {
+	padding-left: 45px;
+	line-height: 1px;
+	font-size: 17px;
+	color: #ffffff;
+	font-family: "Franklin Gothic Book";
+}
+
+.page a{
+	color: #ffffff;
+	font-size: 17px;
+	padding: 5px 10px;
+	font-family: "ColaborateLight";
+	border-radius: 10px;
+	transition: ease 0.4s;
+}
+
+.page a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/*---------------------------------------------------Поиск товаров-------------------------------------*/
+
+.block-search {
+	height: 100px;
+	background: linear-gradient(to top, #d6d7d9, #e9eaec);
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid #f7f7f7;
+}
+
+.title-search {
+	float: left;
+	display: inline-block;
+	padding: 35px 35px;
+	padding-bottom: 28px;
+}
+
+.title-search h2{
+	margin: 0;
+	font-size: 27px;
+	font-family: "ColaborateLight";
+	color: #505050;
+	font-weight: normal;
+}
+
+.title-search p{
+	font-size: 15px;
+	font-family: "ColaborateLight";	
+	padding-left: 5px; 
+	color: #5f7390;
+	margin: 0;
+	margin-top: 10px;
+}
+
+/*-------------------------------------------Поиск по сайту---------------------------------------*/
+.search {
+	float: right;
+	padding: 33px 43px;
+	display: inline-block;
+}
+
+.search-input {
+	height: 30px;
+	width: 250px;
+	border-radius: 20px;
+	border: 2px solid silver;
+	background-color: #fff;
+}
+
+.search-input input {
+	height: 30px;
+	width: 210px;
+	border: none;
+}
+
+.search-input img {
+	margin-left: 10px;
+}
+
+/*-----------------------------------------------------Ipad Продукты---------------------------------------------*/
+
+.ipad-product {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 25px;
+}
+
+.ipad-title {
+	text-align: center;
+}
+
+.ipad-title h2 {
+	font-family: "ColaborateLight";
+	font-size: 27px;
+	color: #505050;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.ipad-pretitle p {
+	font-family: "ColaborateLight";
+	font-size: 15px;
+	color: #5f7390;
+	padding-left: 10px;
+}
+
+.ipad-button {
+	padding: 5px 15px;
+}
+
+.ipad-button button{
+	padding: 6.5px 20px;
+	cursor: pointer;
+	font-size: 19px;
+	color: #fff;
+}
+
+.products-category {
+	margin-left: 50px;
+	margin-right: 50px;
+	border-bottom: 1px solid silver;
+	padding-top: 70px;
+}
+
+.product-popular {
+	float: left;
+	padding-right: 10px;
+}
+
+.products-category button{
+	padding: 5px 20px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	font-family: "Colaborate-Regular";
+	background: #424256;
+	border-radius: 7px 7px 0px 0px;
+}
+
+.product-recent button{
+	opacity: 0.4;
+}
+
+.products {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-right:  47px; 
+	padding-left: 47px;
+}
+
+.product {
+	width: 250px;
+	padding-top: 42px;
+}
+
+.product-img {
+	float: left;
+	margin-right: 10px;
+}
+
+.product-title h2 {
+	margin: 0;
+	margin-top: 5px;
+	font-family: "ColaborateLight";
+	font-size: 23px;
+	color: #505050;
+	font-weight: normal;	
+}
+
+.product-pretitle p {
+	font-family: "ColaborateLight";
+	font-size: 13px;
+	color: #5f7390;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.product-button button {
+	padding: 7px 15px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff;
+	font-family: "Colaborate-Regular";
+	background: #424256;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+/*-----------------------------------------------------Ipad product central page----------------------------------------*/
+
+.logo {
+	width: 260px;
+	font-family: "Flare Light Gothic";
+	padding-right: 132px;
+}
+
+.logo-img_iphone img{
+	float: left;
+	padding-right: 5px;
+	width: 30px;
+	height: 30px;
+	padding-top: 12px;
+}
+
+.logo-title_iphone h1{
+	font-size: 30px;
+	margin-top: 10px;
+	color: #ffffff;
+	margin: 5px 0px;
+}
+
+.logo-pretitle_iphone {
+	padding-left: 45px;
+	line-height: 1px;
+	font-size: 15px;
+	color: #ffffff;
+	font-family: "Franklin Gothic Book";
+}
+
+.logo-iphone {
+	width: 260px;
+	font-family: "Flare Light Gothic";
+	padding-left: 175px;
+	padding-bottom: 40px;
+}
+
+.iphone-title {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.iphone-title h2{
+	margin: 0;
+	font-size: 31px;
+	font-family: "ColaborateLight";
+	color: #505050;
+	font-weight: normal;
+}
+
+.iphone-title p{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.action-ipad {
+	height: 130px;
+	width: 130px;
+	background-color: #3b3b49;
+	color: #fff;
+	text-align: center;
+	border-radius: 50% 50%;
+}
+
+.action-ipad h2{
+	font-size: 39px;
+	font-family: "ColaborateLight";
+	font-weight: normal;
+	padding-top: 10px;
+	margin: 0px;
+	padding-top: 40px;
+}
+
+.action-ipad p{
+	font-size: 15px;
+	font-family: "ColaborateLight";
+	font-weight: normal;
+	width: 100px;
+	padding-left: 15px;
+}
+
+.button-ipad {
+	text-align: center;
+}
+
+.button-ipad button{
+	padding: 7px 30px;
+	cursor: pointer;
+	font-size: 19px;
+}
+
+.img-iphone {
+	background: url("../img/Product page/img product.png") center no-repeat;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-iphone_product {
+	padding: 20px 50px;
+}
+
+.text-iphone_product h2{
+	font-size: 31px;
+	font-family: "ColaborateLight";
+	color: #505050;
+	font-weight: normal;
+}
+
+.text-iphone_product p{
+	font-size: 15px;
+	line-height: 1.3;
+	font-family: "ColaborateLight";
+	color: #828181;
+	font-weight: normal;
+	text-align: justify;
+}
+
+/*-------------------------------------------------Аудиозаписи------------------------------------------*/
+
+.title-product h2 {
+	font-family: "ColaborateLight";
+	font-size: 27px;
+	color: #505050;
+	font-weight: normal;
+}
+
+.audio-product .audio {
+	padding-top: 15px;
+	font-family: "ColaborateLight";
+	font-size: 15px;
+	color: #828181;
+}
+
+.audio-product .audio img{
+	padding-right: 10px;
+}
+
+.one{
+	float: left;
+}
+
+.product-section {
+	padding: 0px 100px;
+	padding-bottom: 50px;
+}
+
+/*---------------------------------------------------Подвал---------------------------------------------*/
+
+
+footer {
+	margin-top: 60px;
+	background: radial-gradient(at top, #5c5c74, #353546);
+	width: 100%;
+}
+
+.footer { 
+	padding-top: 1px;
+}
+
+.twiter {
+	border-top: 1px solid #9b9ba7;
+	border-bottom: 1px solid #5c5c74;
+	padding: 10px 0px;
+}
+
+.img-twiter {
+	float: left;
+	padding-right: 20px; 
+}
+
+.img-twiter img {
+	padding: 20px 14px;
+	background-color: #e7e8ea;
+	border-radius: 50% 50%;
+}
+
+.twiter-text {
+	font-family: "Contra";
+	font-size: 13px;
+	color: #9999a1;
+}
+
+ .twiter-text p{
+    line-height: 2;
+    margin: 0;
+    padding-top: 5px;
+    width: 720px;
+    display: inline-block;
+}
+
+.twiter-author {
+	font-family: "Contra Italic";
+	font-size: 15px;
+	color: #b4b4b9;
+}
+
+.twiter-author p {
+	margin: 0;
+	text-align: right;
+	padding-right: 100px;
+}
+
+.tel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.letter-title h2{
+	font-family: "ColaborateLight";
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.letter-text {
+	line-height: 1.5;
+	width: 355px;
+	font-family: "ColaborateLight";
+	font-size: 14px;
+	color: #b7b7bb;
+}
+
+.input-letter {
+	padding-top: 10px;
+}
+
+.input-letter input {
+	background-color: #242439;
+	border: none;
+	height: 25px;
+	width: 215px;
+	border-radius: 5px;
+	color: #fff;
+	padding-left: 5px;
+}
+
+.input-letter button {
+	margin-left: 20px;
+	padding: 5px 15px;
+	border-radius: 10px;
+	background-color: #e7e8ea;
+	color: #000;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.dawn {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.contact-form {
+	padding-left: 220px;
+}
+
+.contact-form h2{
+	font-family: "ColaborateLight";
+	font-size: 25px;
+	color: #fff;
+}
+
+.form {
+	padding-top: 10px;
+}
+
+.form input{
+	padding-left: 5px;
+	border-radius: 5px;
+	width: 190px;
+	background-color: #242439;
+	border: none;
+	height: 25px;
+	color: #fff;
+}
+
+.comment-form {
+	padding-top: 65px;
+}
+
+.comment-form textarea{
+	border-radius: 5px;
+	background-color: #242439;
+	border: none;
+	resize: vertical;
+	color: #fff;
+	resize: none;
+	padding: 5px;
+}
+
+.social-icon .icon { 
+	float: left;
+	padding-left: 10px;
+}
+
+.rights {
+	font-size: 14px;
+	font-family: "ColaborateLight";
+	color: #b7b7bc;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+
+.button-form {
+	padding-top: 15px;
+}
+
+.button-form button{
+	padding: 5px 20px;
+	border-radius: 10px;
+	background-color: #e7e8ea;
+	color: #000;
+	cursor: pointer;
+	font-size: 14px;
+}
+
